@@ -45,8 +45,8 @@ def create_tables_from_sql(db_file, sql_file):
     db.close_connection()
 
 # Specify the database file and SQL script file
-db_file = "challenge/challenge.db"  # Path to your SQLite database file
-sql_file = "Data_Engineering_202309/challenge_db_create.sql"  # Path to your .sql file
+db_file = "challenge.db"  # Path to your SQLite database file
+sql_file = "challenge_db_create.sql"  # Path to your .sql file
 
 # Call the function
 create_tables_from_sql(db_file, sql_file)
