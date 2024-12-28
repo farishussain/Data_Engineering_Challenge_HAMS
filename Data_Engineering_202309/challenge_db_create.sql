@@ -1,5 +1,3 @@
--- Created on Wed Aug 11 12:50:03 2021
-
 CREATE TABLE IF NOT EXISTS conversions (
     conv_id text NOT NULL,
     user_id text NOT NULL,
